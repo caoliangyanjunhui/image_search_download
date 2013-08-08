@@ -57,7 +57,6 @@ class ImageDownload(object):
 		results = self.__get_response_result_dict(url)
 		if results is None:
 			return
-		print 'results: %s' % results
 
 		if file_dir is not '':
 			path = file_dir
